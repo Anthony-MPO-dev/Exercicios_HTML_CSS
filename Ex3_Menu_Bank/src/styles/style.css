@@ -1,0 +1,73 @@
+
+.menu {
+    display: flex;
+    height: 42px;
+    width: 100%;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo{
+    display: flex;
+    
+}
+
+.logo .logo-text{
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 24px;
+    margin-left: 5px;
+}
+
+.logo img{
+    width: 45px;
+    height: 42px;
+}
+
+.logo-text {
+    align-self: center;
+}
+
+.menu .menu-itens{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu .menu-itens li{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.menu-itens .item {
+    display: flex;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 11px 6px;    
+}
+
+.menu-itens .item:hover{
+    background-color: var(--button-color);
+    color: white;
+    
+}
+
+.menu-itens .button{
+    background-color: var(--button-color);
+    border-radius: 10px;
+    align-self: center; 
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 18px;
+}
+
+
+.menu .button:active, .menu-itens .item:active{
+    background-color: var(--button-color-hover);
+}
+
+.button a{
+    color: white;
+    padding: 10px 21px;
+}

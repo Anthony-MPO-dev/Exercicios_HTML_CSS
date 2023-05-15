@@ -1,0 +1,12 @@
+@media (max-width: 1440px) {
+    
+    .imglist .item{
+        margin-left: 0px;
+    }
+
+    .imglist{        
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

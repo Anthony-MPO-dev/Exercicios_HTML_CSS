@@ -1,0 +1,23 @@
+
+.imglist{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin: 129px 21px;
+    flex-wrap: wrap;
+}
+
+.imglist .item{
+    position: relative;
+    width: 335px;
+    height: 431px;
+    margin-left: 20px;
+}
+
+.item .text{
+    position: absolute;
+    bottom: 14px;
+    left: 22px;
+}
+

@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        gap: 5px;
+    }
+
+    .menu .logo-text, .menu-itens .item{
+        font-size: 4rem;
+        line-height: 47px;
+    }
+
+    .menu .logo{
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    
+    .menu-itens .item{
+        padding: 17px 40px; 
+        margin-bottom: 16px;
+    }
+
+    .menu .menu-itens {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu .button{
+        margin-top: 16px;
+        margin-bottom: 100px;
+    }
+
+    .menu .button a{   
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 21px;
+        padding: 15px 23px;
+        
+    }
+
+    
+
+
+}

@@ -1,0 +1,127 @@
+:root {
+    --text-color: hsl(193, 38%, 86%);
+    --advice-dice-color: hsl(150, 100%, 66%);
+    --advice-card-color: hsl(217, 19%, 24%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.advice_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 657px;
+    min-height: 375px;
+    background-color: var(--advice-card-color);
+    border-radius: 15px;
+
+}
+
+.advice_card h3{
+    margin-top: 37px;
+    color: var(--advice-dice-color);
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.advice_card .dice{
+    display: flex;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    transform: translateY(75%);
+    background-color: var(--advice-dice-color);
+    justify-content: center;    
+}
+
+.advice_card .dice:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 1px 15px var(--advice-dice-color);
+}
+
+.advice_card .text{
+    margin: 0px 40px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+
+
+.dice img{
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+
+.pattern{
+    width: 100%;
+}
+
+.pattern img{
+    padding: 0px 40px;
+    width: 100%;
+}
+
+.attribution{
+    align-self: flex-end;
+    width: 100%;
+}
+
+@media (max-width:768px){
+    .advice_card{
+        margin: 80px 10px;
+    }
+}
+
+@media (max-width:580px){
+
+    .advice_card .dice{
+        transform: translateY(50%);
+        
+    }
+
+    .advice_card h3{
+        font-size: 12px;
+    }
+    
+    .advice_card .text{
+        font-size: 24px;
+        
+    }
+
+}
+
+
+
+@media (max-width:414px){
+
+    .advice_card .dice{
+        transform: translateY(60%);
+        
+    }
+
+}
+
+@media (max-width:380px){
+
+    .advice_card .dice{
+        transform: translateY(50%);
+        
+    }
+
+}
+
+
